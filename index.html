@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sederhana</title>
+    <link rel="icon" type="image/png" href="https://icon-icons.com/icons2/403/PNG/512/shop_40505.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">TokoKu</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <div class="dropdown">
+                <button>contact</button>
+                <div class="dropdown-content">
+                    <a href="#wa">WhatsApp</a>
+                    <a href="#ig">Instagram</a>
+                    <a href="https://www.google.com/maps/place/Jakarta,+Daerah+Khusus+Ibukota+Jakarta/@-6.2293796,106.6646991,11z/data=!3m1!4b1!4m6!3m5!1s0x2e69f3e945e34b9d:0x5371bf0fdad786a2!8m2!3d-6.1944491!4d106.8229198!16zL20vMDQ0cnY?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">Real-Location</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Selamat Datang di TokoKu</h1>
+            <p>Web ini dibuat untuk latihan farras addar quthni dalam membuat web yang memiliki tampilan yang responsif, interaktif, dan berwarna.</p>
+            <p>Tujuannya adalah untuk melatih kreativitas dan keterampilan saya dalam pengembangan web.</p>
+        </section>
+
+        <section id="products">
+            <h2>Produk Kami</h2>
+            <div class="product">
+                <img src="https://1.bp.blogspot.com/-QJdEuimWfSA/T7JWv0NG3II/AAAAAAAAAPE/qSsq15iBYtM/s1600/Sepatu+Mizuno+Wave+Ascend+6+Trail+Running.png" alt="Produk 1">
+                <h3>Sepatu Udara-Jordan</h3>
+                <p>Harga: Rp100.000</p>
+                <button class="beli" onclick="buy('Sepatu Udara-Jordan', 100)">Beli</button>
+            </div>
+            <div class="product">
+                <img src="https://vignette.wikia.nocookie.net/spongebob/images/7/79/Spat_stock_art_2000.png/revision/latest?cb=20181228013613" alt="Produk 2">
+                <h3>Spatula Spombob</h3>
+                <p>Harga: Rp150.000</p>
+                <button class="beli" onclick="buy('Spatula Spombob', 150)">Beli</button>
+            </div>
+            <div class="product">
+                <img src="https://sheilov.com/wp-content/uploads/2020/10/boneka-rajut-836x1024.png" alt="Produk 3">
+                <h3>Boneka Rajut</h3>
+                <p>Harga: Rp300.000</p>
+                <button class="beli" onclick="buy('Boneka Rajut', 300)">Beli</button>
+            </div>
+            <div class="product">
+                <img src="https://dlcdnwebimgs.asus.com/files/media/8B74E7EE-B66A-4420-894E-3C3B980312EE/v1/img/design/color/strix-g-2022-grey.png" alt="Produk 4">
+                <h3>Laptop ROG Ori</h3>
+                <p>Harga: Rp550.000</p>
+                <button class="beli" onclick="buy('Laptop ROG Ori', 550)">Beli</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button class="beli" type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TokoKu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
