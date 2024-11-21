@@ -63,7 +63,7 @@ main {
 @media (max-width: 768px) {
     .product {
         display: inline-block;
-        width: 80%;  /* Membuat produk lebar penuh pada layar kecil */
+        width: 80.5%;  /* Membuat produk lebar penuh pada layar kecil */
         margin: 0.5rem; /* Margin lebih kecil */
         padding: 0.5rem; /* Padding lebih kecil */
     }
