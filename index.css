@@ -33,6 +33,10 @@ header nav a:hover {
     color: #28a745;
 }
 
+header nav {
+    text-align: right;
+}
+
 main {
     padding: 2rem;
 }
@@ -54,6 +58,15 @@ main {
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .product {
+        display: inline-block;
+        width: 80%;  /* Membuat produk lebar penuh pada layar kecil */
+        margin: 0.5rem; /* Margin lebih kecil */
+        padding: 0.5rem; /* Padding lebih kecil */
+    }
 }
 
 .product img {
@@ -121,7 +134,7 @@ footer {
 .dropdown button {
     background-color: #28a745;
     color: white;
-    padding: 10px 35px;
+    padding: 10px 44px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
